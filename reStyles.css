@@ -1,0 +1,13 @@
+/*ReStyles sheet for responsiveness*/
+@media screen and (min-width:500px){
+  img{display:block;}
+  .sidebox-1{display:block}
+}
+@media screen and (min-width:800px){
+  img{display:inline}
+  .sidebox-1{display:block}
+}
+@media screen and (min-width:1366px){
+  img{display:none}
+  .sidebox-1{display:none}
+}
